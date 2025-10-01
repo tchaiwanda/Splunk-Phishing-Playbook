@@ -10,7 +10,7 @@ This repository contains a phishing incident response playbook, a one-page runbo
 - `screenshots/` — Dashboard and alert screenshots (placeholders).
 - `docs/playbook_summary.md` — Short summary for documentation.
 
-**Important:** All data and IOCs in this repo are synthetic or sanitized and used only for demonstration.
+**Important:** All data and IOCs in this repo are synthetic and does not display true data. This is used only for demonstration purposes only.
 
 
 # Phishing Detection Lab
