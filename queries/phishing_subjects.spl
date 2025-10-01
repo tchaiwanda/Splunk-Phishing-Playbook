@@ -1,0 +1,4 @@
+index=security sourcetype=csv
+| search subject="*invoice*" OR subject="*payment*" OR subject="*verify*" OR subject="*update your*"
+| stats count by sender, recipient, subject
+| sort - count

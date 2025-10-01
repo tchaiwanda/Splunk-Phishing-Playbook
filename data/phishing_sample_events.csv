@@ -1,0 +1,81 @@
+_time,sender,recipient,subject,url,action,attachment_hash,sandbox_verdict
+2025-09-30 08:03:00,hr-updates@contoso.com,ops@example.com,Urgent: Update your payroll information,http://free-download.example,delivered,feedface87654321,clean
+2025-09-30 08:08:00,invoices@fakesupplier.com,finance@example.com,Payment request - wire instructions,http://tinyurl.com/verify-o365,delivered,,
+2025-09-30 08:13:00,hr-updates@contoso.com,admin@example.com,Unusual sign-in attempt,http://suspicious-domain.com/login,click,feedface87654321,clean
+2025-09-30 08:18:00,newsletter@trusted.com,bjones@example.com,Security notice: verify your account,,delivered,abcd1234efgh5678,suspicious
+2025-09-30 08:20:00,it-helpdesk@acmeinc.com,admin@example.com,Unusual sign-in attempt,http://malicious-pay.example/wire,delivered,deadbeef12345678,clean
+2025-09-30 08:26:00,newsletter@trusted.com,itstaff@example.com,Urgent: Update your payroll information,http://free-download.example,delivered,abcd1234efgh5678,clean
+2025-09-30 08:30:00,alerts@office365.com,bjones@example.com,Security notice: verify your account,http://free-download.example,delivered,,
+2025-09-30 08:38:00,support@servicenow.com,itstaff@example.com,New voicemail received,http://suspicious-domain.com/login,click,cafebabef00d1234,suspicious
+2025-09-30 08:43:00,alerts@office365.com,itstaff@example.com,New voicemail received,http://confirm.example/verify,delivered,,
+2025-09-30 08:48:00,it-helpdesk@acmeinc.com,itstaff@example.com,Your invoice is ready,http://confirm.example/verify,delivered,,
+2025-09-30 08:51:00,ceo-payments@payment.example,ops@example.com,Invoice 2025-09 due,http://bit.ly/fakeinvoice,click,,
+2025-09-30 08:56:00,security@bankexample.com,jdoe@example.com,Unusual sign-in attempt,http://suspicious-domain.com/login,delivered,,
+2025-09-30 09:02:00,support@servicenow.com,securityteam@example.com,Unusual sign-in attempt,http://malicious-pay.example/wire,delivered,feedface87654321,suspicious
+2025-09-30 09:09:00,alerts@office365.com,itstaff@example.com,Invoice 2025-09 due,http://malicious-pay.example/wire,delivered,cafebabef00d1234,malicious
+2025-09-30 09:14:00,security@bankexample.com,ops@example.com,Payment request - wire instructions,,click,,
+2025-09-30 09:16:00,ceo-payments@payment.example,ops@example.com,Unusual sign-in attempt,http://secure.example/login,delivered,,
+2025-09-30 09:23:00,alerts@office365.com,bjones@example.com,Action Required: Confirm changes,http://suspicious-domain.com/login,delivered,feedface87654321,clean
+2025-09-30 09:27:00,it-helpdesk@acmeinc.com,itstaff@example.com,Action Required: Confirm changes,http://tinyurl.com/verify-o365,click,,
+2025-09-30 09:30:00,alerts@office365.com,finance@example.com,Security notice: verify your account,http://bit.ly/fakeinvoice,delivered,abcd1234efgh5678,clean
+2025-09-30 09:35:00,support@servicenow.com,asmith@example.com,Please reset your password,http://suspicious-domain.com/login,click,,
+2025-09-30 09:41:00,alerts@office365.com,jdoe@example.com,Unusual sign-in attempt,http://docs.example/view,delivered,feedface87654321,
+2025-09-30 09:45:00,no-reply@alerts.example,itstaff@example.com,Please reset your password,http://free-download.example,click,feedface87654321,suspicious
+2025-09-30 09:54:00,hr-updates@contoso.com,itstaff@example.com,Unusual sign-in attempt,http://secure.example/login,click,abcd1234efgh5678,
+2025-09-30 09:56:00,it-helpdesk@acmeinc.com,bjones@example.com,Monthly Newsletter,http://confirm.example/verify,delivered,feedface87654321,malicious
+2025-09-30 10:01:00,accounts@billing.example,bjones@example.com,New voicemail received,http://free-download.example,delivered,,
+2025-09-30 10:09:00,support@servicenow.com,bjones@example.com,Security notice: verify your account,,click,,
+2025-09-30 10:13:00,alerts@office365.com,ops@example.com,New voicemail received,http://secure.example/login,delivered,,
+2025-09-30 10:18:00,ceo-payments@payment.example,itstaff@example.com,Security notice: verify your account,http://tinyurl.com/verify-o365,delivered,,suspicious
+2025-09-30 10:21:00,newsletter@trusted.com,bjones@example.com,Unusual sign-in attempt,,delivered,feedface87654321,malicious
+2025-09-30 10:26:00,ceo-payments@payment.example,asmith@example.com,Please reset your password,http://suspicious-domain.com/login,delivered,,
+2025-09-30 10:32:00,alerts@office365.com,user2@example.com,Security notice: verify your account,http://bit.ly/fakeinvoice,delivered,feedface87654321,suspicious
+2025-09-30 10:38:00,invoices@fakesupplier.com,user2@example.com,Security notice: verify your account,http://confirm.example/verify,delivered,cafebabef00d1234,
+2025-09-30 10:42:00,alerts@office365.com,asmith@example.com,Urgent: Update your payroll information,http://bit.ly/fakeinvoice,click,feedface87654321,suspicious
+2025-09-30 10:46:00,accounts@billing.example,jdoe@example.com,Invoice 2025-09 due,http://free-download.example,delivered,deadbeef12345678,malicious
+2025-09-30 10:50:00,ceo-payments@payment.example,admin@example.com,Please reset your password,http://secure.example/login,click,,
+2025-09-30 10:58:00,accounts@billing.example,finance@example.com,Payment request - wire instructions,http://malicious-pay.example/wire,delivered,feedface87654321,suspicious
+2025-09-30 11:03:00,it-helpdesk@acmeinc.com,jdoe@example.com,Your invoice is ready,http://bit.ly/fakeinvoice,click,,suspicious
+2025-09-30 11:07:00,ceo-payments@payment.example,itstaff@example.com,Payment request - wire instructions,http://suspicious-domain.com/login,delivered,cafebabef00d1234,malicious
+2025-09-30 11:12:00,support@servicenow.com,finance@example.com,Invoice 2025-09 due,http://suspicious-domain.com/login,delivered,,
+2025-09-30 11:17:00,alerts@office365.com,bjones@example.com,Invoice 2025-09 due,http://free-download.example,delivered,cafebabef00d1234,suspicious
+2025-09-30 11:22:00,alerts@office365.com,itstaff@example.com,Please reset your password,http://bit.ly/fakeinvoice,delivered,abcd1234efgh5678,suspicious
+2025-09-30 11:27:00,ceo-payments@payment.example,asmith@example.com,New voicemail received,http://tinyurl.com/verify-o365,delivered,feedface87654321,suspicious
+2025-09-30 11:30:00,newsletter@trusted.com,admin@example.com,Unusual sign-in attempt,http://docs.example/view,delivered,,
+2025-09-30 11:37:00,security@bankexample.com,bjones@example.com,Unusual sign-in attempt,http://malicious-pay.example/wire,delivered,cafebabef00d1234,clean
+2025-09-30 11:42:00,accounts@billing.example,jdoe@example.com,Please reset your password,,delivered,feedface87654321,
+2025-09-30 11:46:00,accounts@billing.example,jdoe@example.com,Please reset your password,,delivered,cafebabef00d1234,malicious
+2025-09-30 11:50:00,ceo-payments@payment.example,jdoe@example.com,Urgent: Update your payroll information,http://free-download.example,delivered,cafebabef00d1234,suspicious
+2025-09-30 11:58:00,support@servicenow.com,asmith@example.com,Please reset your password,http://bit.ly/fakeinvoice,delivered,,
+2025-09-30 12:00:00,support@servicenow.com,admin@example.com,Payment request - wire instructions,http://secure.example/login,delivered,abcd1234efgh5678,
+2025-09-30 12:09:00,alerts@office365.com,user1@example.com,Unusual sign-in attempt,http://docs.example/view,click,cafebabef00d1234,
+2025-09-30 12:11:00,support@servicenow.com,admin@example.com,Invoice 2025-09 due,http://secure.example/login,delivered,,
+2025-09-30 12:15:00,security@bankexample.com,user2@example.com,Security notice: verify your account,http://suspicious-domain.com/login,delivered,abcd1234efgh5678,suspicious
+2025-09-30 12:22:00,newsletter@trusted.com,bjones@example.com,Security notice: verify your account,http://tinyurl.com/verify-o365,delivered,abcd1234efgh5678,malicious
+2025-09-30 12:27:00,accounts@billing.example,user1@example.com,Please reset your password,http://docs.example/view,delivered,feedface87654321,suspicious
+2025-09-30 12:31:00,ceo-payments@payment.example,user1@example.com,Unusual sign-in attempt,,delivered,abcd1234efgh5678,
+2025-09-30 12:36:00,security@bankexample.com,finance@example.com,Unusual sign-in attempt,http://confirm.example/verify,click,,
+2025-09-30 12:43:00,accounts@billing.example,finance@example.com,Please reset your password,http://suspicious-domain.com/login,delivered,deadbeef12345678,suspicious
+2025-09-30 12:45:00,accounts@billing.example,itstaff@example.com,Invoice 2025-09 due,http://free-download.example,delivered,deadbeef12345678,
+2025-09-30 12:53:00,accounts@billing.example,user2@example.com,Payment request - wire instructions,,click,feedface87654321,
+2025-09-30 12:56:00,security@bankexample.com,ops@example.com,Security notice: verify your account,,delivered,feedface87654321,malicious
+2025-09-30 13:03:00,newsletter@trusted.com,finance@example.com,Invoice 2025-09 due,http://docs.example/view,delivered,deadbeef12345678,
+2025-09-30 13:05:00,newsletter@trusted.com,user2@example.com,Payment request - wire instructions,http://docs.example/view,delivered,cafebabef00d1234,suspicious
+2025-09-30 13:14:00,it-helpdesk@acmeinc.com,user1@example.com,Unusual sign-in attempt,,delivered,deadbeef12345678,
+2025-09-30 13:15:00,it-helpdesk@acmeinc.com,bjones@example.com,Action Required: Confirm changes,,delivered,abcd1234efgh5678,malicious
+2025-09-30 13:24:00,support@servicenow.com,user2@example.com,Monthly Newsletter,http://confirm.example/verify,delivered,deadbeef12345678,
+2025-09-30 13:28:00,ceo-payments@payment.example,bjones@example.com,Please reset your password,http://free-download.example,delivered,cafebabef00d1234,
+2025-09-30 13:32:00,accounts@billing.example,securityteam@example.com,Action Required: Confirm changes,http://free-download.example,delivered,cafebabef00d1234,clean
+2025-09-30 13:38:00,no-reply@alerts.example,user1@example.com,Please reset your password,http://suspicious-domain.com/login,click,,
+2025-09-30 13:40:00,support@servicenow.com,securityteam@example.com,Urgent: Update your payroll information,http://secure.example/login,delivered,abcd1234efgh5678,malicious
+2025-09-30 13:47:00,invoices@fakesupplier.com,user1@example.com,Security notice: verify your account,,delivered,feedface87654321,
+2025-09-30 13:52:00,no-reply@alerts.example,ops@example.com,Urgent: Update your payroll information,,delivered,feedface87654321,
+2025-09-30 13:56:00,it-helpdesk@acmeinc.com,user2@example.com,Your invoice is ready,http://tinyurl.com/verify-o365,click,deadbeef12345678,
+2025-09-30 14:02:00,accounts@billing.example,user1@example.com,Invoice 2025-09 due,,delivered,deadbeef12345678,suspicious
+2025-09-30 14:08:00,invoices@fakesupplier.com,itstaff@example.com,Unusual sign-in attempt,,delivered,deadbeef12345678,malicious
+2025-09-30 14:12:00,ceo-payments@payment.example,user1@example.com,Monthly Newsletter,http://confirm.example/verify,click,deadbeef12345678,
+2025-09-30 14:16:00,ceo-payments@payment.example,bjones@example.com,Unusual sign-in attempt,,delivered,cafebabef00d1234,
+2025-09-30 14:20:00,newsletter@trusted.com,itstaff@example.com,Monthly Newsletter,,delivered,,
+2025-09-30 14:29:00,alerts@office365.com,bjones@example.com,Unusual sign-in attempt,http://secure.example/login,click,cafebabef00d1234,clean
+2025-09-30 14:31:00,support@servicenow.com,user1@example.com,Security notice: verify your account,,click,deadbeef12345678,
+2025-09-30 14:35:00,no-reply@alerts.example,admin@example.com,Monthly Newsletter,http://bit.ly/fakeinvoice,click,abcd1234efgh5678,suspicious

@@ -1,0 +1,6 @@
+index=security sourcetype=csv subject="*invoice*" earliest=-24h@h
+| fields recipient
+| dedup recipient
+| table recipient
+| format
+| map search="search index=security sourcetype=csv action=success recipient=$recipient$ earliest=-24h@h | stats count AS auth_count BY recipient, src_ip, action | where action=\"success\""

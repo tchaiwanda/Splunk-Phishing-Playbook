@@ -1,0 +1,4 @@
+index=security sourcetype=csv action=click
+| search url="*bit.ly*" OR url="*tinyurl*" OR url="*login*" OR url="*verify*"
+| stats count by recipient, url, _time
+| sort - _time

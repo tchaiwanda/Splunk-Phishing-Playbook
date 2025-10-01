@@ -1,0 +1,3 @@
+index=security sourcetype=csv attachment_hash=*
+| stats values(attachment_hash) as hashes, values(sandbox_verdict) as verdicts by sender, recipient
+| where mvcount(hashes)>0 AND (mvindex(verdicts,0)="malicious" OR mvindex(verdicts,0)="suspicious")
