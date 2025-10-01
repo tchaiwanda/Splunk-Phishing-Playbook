@@ -1,4 +1,4 @@
-# Splunk Phishing Playbook Lab
+# Splunk Phishing Playbook
 
 This repository contains a phishing incident response playbook, a one-page runbook, Splunk detection queries, and a synthetic dataset for testing.
 
@@ -11,3 +11,22 @@ This repository contains a phishing incident response playbook, a one-page runbo
 - `docs/playbook_summary.md` — Short summary for documentation.
 
 **Important:** All data and IOCs in this repo are synthetic or sanitized and used only for demonstration.
+
+
+# Phishing Detection Lab
+
+This project uses Splunk to detect phishing emails, malicious attachments, and suspicious clicks.
+
+## 📊 Dashboard Overview
+
+Dashboard + Panels:
+
+![Dashboard](screenshots/dashboard.png)
+
+Phishing subject:
+
+![Phishing Subjects](screenshots/subject-spl.png)
+
+Suspicious links clicked:
+
+![Suspicious Clicks](screenshots/links-spl.png)
